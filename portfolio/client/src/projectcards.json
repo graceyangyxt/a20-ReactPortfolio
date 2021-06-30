@@ -1,0 +1,46 @@
+[
+    {
+        "id":1,
+        "name":"VinoVR",
+        "image":"petable.jpg",
+        "href":"https://vast-ravine-04927.herokuapp.com/",
+        "mypart":"Web design / UIUX Wireframe / html css bulma Javascript"
+    },
+    {
+        "id":2,
+        "name":"PETable",
+        "image":"petable.jpg",
+        "href":"https://vast-ravine-04927.herokuapp.com/",
+        "mypart":"Web design / UIUX Wireframe / html css bulma Javascript"
+    },
+    {
+        "id":3,
+        "name":"On the Other Side",
+        "image":"ontheotherside.jpg",
+        "href":"https://graceyangyxt.github.io/Gp1-On-the-other-side/",
+        "mypart":"Web design / UIUX Wireframe / html css" 
+    },
+    {
+        "id":4,
+        "name":"Weather Dashboard",
+        "image":"weatherdashboard.png",
+        "href":"https://graceyangyxt.github.io/a6-weather-dashboard/",
+        "mypart":"OpenWeather API / Bootstrap / Local Storage"
+    },
+    {
+        "id":5,
+        "name":"Daily Planner",
+        "image":"dailyplanner.png",
+        "href":"https://graceyangyxt.github.io/a5-daily-planner/",
+        "mypart":"jQuery / Bootstrap / Moment.js"
+    },
+    {
+        "id":6,
+        "name":"Daily Planner",
+        "image":"dailyplanner.png",
+        "href":"https://graceyangyxt.github.io/a5-daily-planner/",
+        "mypart":"jQuery / Bootstrap / Moment.js"
+    }
+    
+
+]

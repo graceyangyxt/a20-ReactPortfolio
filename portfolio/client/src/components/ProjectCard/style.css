@@ -1,0 +1,178 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+:root{
+    --font-h3p:'Gothic A1';
+    --font-h1h2:'Arimo';
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding:0;
+}
+.titleimg{
+    padding:0;
+}
+h1{
+    position: absolute;
+    bottom: 5%;
+    left:0;
+    right:0;
+    font-family: var(--font-h1h2);
+    font-size: 2em;
+    font-weight: 500;
+    color: #F4F7FA;
+
+}
+h1 span{
+    font-family: var(--font-h3p);
+}
+
+h2 {
+   vertical-align: middle;
+   font-family:var(--font-h1h2);
+   font-weight: 500;
+   font-size: 1.6em;
+   text-align: center;
+   padding:20px;
+}
+
+.card-header,
+h3 {
+    font-family:var(--font-h3p);
+    font-weight:500;
+    font-size: 1.2em;
+    text-align: center;
+    color: #455C78;
+
+ }
+
+.about {
+    text-align: center;
+    line-height: 1.5;
+    color: #455C78; 
+    padding: 30px 30px;
+
+}
+
+.content {
+    margin: 0 40px;
+    text-align: center;
+    line-height: 1.2;
+    color: #455C78; 
+}
+.about ,
+.coding,
+.design,
+.link{
+    margin:2%;
+    padding:1%;
+}
+
+.content p{
+    font-size: 1em;
+}
+
+.card{
+    margin:30px;
+    margin-bottom: 10px;
+}
+.card-header{
+    font-family:var(--font-h3p);
+    padding: 1em 0;
+   
+}
+.card-text{
+    padding:0.5em;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    font-family:var(--font-h3p);
+    font-weight: 300;
+}
+.link{
+    font-family:var(--font-h3p);
+    font-weight: 300;
+    padding: 1.2em;
+    line-height: 1.5em;
+}
+
+footer h3, footer p{
+    color: #F4F7FA;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #5F7593;
+    font-weight: 300;
+    padding-top:10px;
+    padding:20px;
+}
+
+.img1:hover,
+.img2:hover,
+.img3:hover,
+.img4:hover,
+.img5:hover,
+.img6:hover{
+  opacity: 0.3;
+}
+.card-header:hover{
+    background: #5F7593;
+    color:#F4F7FA;
+}
+
+.navbar{
+    font-family:var(--font-h1h2);
+    font-weight: 500;
+    background:#5F7593;
+    text-align:center;
+    font-size: 1.2em;
+    color:#F4F7FA;
+
+}
+
+@media screen and (max-width: 512px) {
+     
+    h1{
+        font-size:1.8em;
+    }
+    h2{
+        font-size:1.4em;
+        padding:15px;
+    }
+    h3{
+        font-size:1em;
+    }
+    .about {
+        margin:2%;
+        text-align: center;
+        line-height: 1.2;
+        color: #455C78;       
+        padding: 20px 20px;
+    }
+    .content {
+        margin: 0 5px;
+        text-align: center;
+        line-height: 1.2;
+        color: #455C78; 
+    }
+    .about,
+    .coding,
+    .design,
+    .link{
+        margin:5%;
+        padding:3%;
+    }
+    .card{
+        margin:10px;
+        border-width: 2px;
+        border-color: rgb(116, 127, 145);
+        
+        
+    }
+    .card-header{
+        background: #5F7593;
+        color:#F4F7FA;
+    }
+}
